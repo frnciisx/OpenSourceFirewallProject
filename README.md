@@ -11,14 +11,27 @@ The goal was not only to learn theory, but to **practically apply it** — confi
 
 ---
 
-## 🗂️ Project Structure
-[ReadMe](README.md) # This file
-[Firewall Rules](firewall_rules.md)
-[Screenshots](Screenshots)
-[Firewall](firewall.sh)
-[]()
-[Python Server](python_server.sh)
-└── scripts/
-├── firewall.sh # Bash script with iptables rules
-└── python_server.sh # Helper script to start Python server
+## 🗂️ Project Structure  
+[README](README.md) – This file  
+[Firewall Rules](firewall_rules.md) – Markdown documentation for iptables setup  
+[Screenshots](Screenshots) – Wireshark captures and terminal output  
+[Firewall Script](firewall.sh) – Shell script to apply firewall rules  
+[Python Server](python_server.sh) – Simple HTTP server for traffic simulation  
 
+## 🚨 Firewall Curiosity
+-I wanted to see how precise firewall rules could be. Blocking port 80 completely stopped HTTP traffic—even to safe sites. Allowing port 2222 let me run a custom TCP server and verify that traffic was permitted. This showed me how firewalls enforce security policies and how easy it is to misconfigure them.
+
+## 📸 Screenshots
+- Wireshark capture showing blocked and allowed traffic
+- Terminal output of iptables rules and curl tests (Screenshots)
+
+## 💡 Key Learnings
+- Mastered basic iptables syntax and rule logic
+- Understood TCP/IP, HTTP, and SSH protocols
+- Learned to analyze traffic with Wireshark
+- Improved Linux terminal navigation and troubleshooting
+- Saw firsthand how firewall rules affect connectivity
+
+## 🚀 Future Goals  
+- My future goal is to complete a SIEM project using the skills I developed through my TryHackMe and LetsDefend training projects. I feel like after doing those, I don't know much so it will be nice to use Splunk or other SIEM software to get more experience. 
+- I plan to apply what I’ve learned about packet analysis, firewall configuration, and network behavior to build a system that monitors, detects, and responds to security events in real time.
