@@ -9,3 +9,7 @@ echo "   Example test: curl -4 http://127.0.0.1:$PORT"
 
 # Start the server
 python3 -m http.server 2222
+---
+In a new Terminal tab
+curl -4 http://127.0.0.1:2222
+After this you can go to Wireshark and start pcapping and filter it with tcp.port==80
