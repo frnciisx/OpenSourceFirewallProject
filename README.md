@@ -20,7 +20,8 @@ The goal was not only to learn theory, but to **practically apply it** — confi
 [Python Server](python_server.sh) – Simple HTTP server for traffic simulation  
 
 ## 🚨 Firewall Curiosity
--I wanted to see how precise firewall rules could be. Blocking port 80 completely stopped HTTP traffic—even to safe sites. Allowing port 2222 let me run a custom TCP server and verify that traffic was permitted. This showed me how firewalls enforce security policies and how it is to misconfigure them.
+- First and foremost, I just wanted to see how firewalls even worked. As I enter my cybersecurity journey, I will continue to try new things to see where I fit in and what I'll be enthused about enough to explore further.
+- I wanted to see how precise firewall rules could be. Blocking port 80 completely stopped HTTP traffic—even to safe sites. Allowing port 2222 let me run a custom TCP server and verify that traffic was permitted. Though I focused more on the port 80 blocking part, this showed me how firewalls enforce security policies and how it is to misconfigure them.
 
 ## 📸 Screenshots
 - Wireshark capture showing blocked and allowed traffic
