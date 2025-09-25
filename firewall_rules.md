@@ -24,16 +24,6 @@ sudo iptables -P OUTPUT ACCEPT
         wireshark_filter: "tcp.port == 80"
         wireshark_result: "Red TCP SYN packets with no response"
 
-    - name: "Allow local TCP traffic"
-      description: "Allow inbound TCP traffic on port 2222 for Python server testing."
-      command: "sudo iptables -A INPUT -p tcp --dport 2222 -j ACCEPT"
-      test:
-        server_command: "python3 -m http.server 2222"
-        client_command: "curl -4 http://127.0.0.1:2222"
-        expected_result: "Directory listing of home folder"
-        wireshark_filter: "tcp.port == 2222"
-        wireshark_result: "Normal TCP handshake and traffic flow"
-
     - name: "Allow ICMP (ping)"
       description: "Allow ICMP echo requests (ping)."
       command: "sudo iptables -A INPUT -p icmp -j ACCEPT"
