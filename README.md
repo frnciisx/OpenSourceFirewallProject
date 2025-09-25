@@ -20,12 +20,12 @@ OpenSourceFirewallProject/
 │ ├── Ping_test.png
 │ ├── HTTP_macafee.png
 │ ├── HTTP_test_first_attempt.png
-│ ├── 
+│ ├── SSH_Fail.png
+│ ├── SSH_Install_Attempt.png
+│ ├── HTTP_Blocked.png
 │ ├── 
 │ ├── HTTP_Blocked.png
-│ ├──
-│ ├── tcp_allowed.png
-│ └── wireshark_filter.png
+│ └── 
 └── scripts/
 ├── firewall.sh # Bash script with iptables rules
 └── python_server.sh # Helper script to start Python server
