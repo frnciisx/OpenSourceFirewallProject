@@ -15,7 +15,7 @@ The goal was not only to learn theory, but to **practically apply it** — confi
 [ReadMe](README.md) # This file
 [Firewall Rules](firewall_rules.md)
 [Screenshots](Screenshots)
-[]()
+[Firewall](firewall.sh)
 []()
 [Python Server](python_server.sh)
 └── scripts/
