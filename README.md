@@ -12,20 +12,13 @@ The goal was not only to learn theory, but to **practically apply it** — confi
 ---
 
 ## 🗂️ Project Structure
-OpenSourceFirewallProject/
-├── README.md # This file
-├── firewall_rules.md # Detailed explanation of iptables rules
-├── Screenshots/ # Screenshots of terminal & Wireshark captures
-│ ├── iptables_setup.png
-│ ├── Ping_test.png
-│ ├── HTTP_macafee.png
-│ ├── HTTP_test_first_attempt.png
-│ ├── SSH_Fail.png
-│ ├── SSH_Install_Attempt.png
-│ ├── HTTP_Blocked.png
-│ ├── 
-│ ├── HTTP_Blocked.png
-│ └── 
+[ReadMe](README.md) # This file
+[Firewall Rules](firewall_rules.md)
+[Screenshots](Screenshots)
+[]()
+[]()
+[Python Server](python_server.sh)
 └── scripts/
 ├── firewall.sh # Bash script with iptables rules
 └── python_server.sh # Helper script to start Python server
+
