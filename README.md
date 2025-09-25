@@ -15,7 +15,8 @@ The goal was not only to learn theory, but to **practically apply it** — confi
 [README](README.md) – This file  
 [Firewall Rules](firewall_rules.md) – Markdown documentation for iptables setup  
 [Screenshots](Screenshots) – Wireshark captures and terminal output  
-[Firewall Script](firewall.sh) – Shell script to apply firewall rules  
+[Firewall Script](firewall.sh) – Shell script to apply firewall rules
+[Wireshark](wireshark.md) - Wireshark Filters
 [Python Server](python_server.sh) – Simple HTTP server for traffic simulation  
 
 ## 🚨 Firewall Curiosity
