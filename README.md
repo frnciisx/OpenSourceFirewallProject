@@ -12,12 +12,13 @@ The goal was not only to learn theory, but to **practically apply it** — confi
 ---
 
 ## 🗂️ Project Structure  
+
 [README](README.md) – This file  
 [Firewall Rules](firewall_rules.md) – Markdown documentation for iptables setup  
 [Screenshots](Screenshots) – Wireshark captures and terminal output  
-[Firewall Script](firewall.sh) – Shell script to apply firewall rules  
-[Wireshark](wireshark.md) - Wireshark filters  
-[Python Server](python_server.sh) – Simple HTTP server for traffic simulation  
+[Firewall Script](scripts/firewall.sh) – Shell script to apply firewall rules  
+[Python Server](scripts/python_server.sh) – Simple HTTP server for traffic simulation  
+[Wireshark](wireshark.md) – Wireshark filters   
 
 ## 🚨 Firewall Curiosity
 - First and foremost, I just wanted to see how firewalls even worked. As I embark on my cybersecurity journey, I will continue to try new things to see where I fit in and what I'll be passionate enough about to explore further.
@@ -26,6 +27,7 @@ The goal was not only to learn theory, but to **practically apply it** — confi
 ## 📸 Screenshots
 - Wireshark capture showing blocked and allowed traffic
 - Terminal output of iptables rules and curl tests (Screenshots)
+- Terminal input and output of Python Port 2222 set up
 
 ## 💡 Key Learnings
 - Mastered basic iptables syntax and rule logic
